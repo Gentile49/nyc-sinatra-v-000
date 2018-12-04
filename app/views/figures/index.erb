@@ -1,0 +1,6 @@
+<h1>This is a list of all the figures in the database:</h1>
+<ul>
+  <%@figures.each do |figure|%>
+    <li> <a href="/figures/<%=figure.id%>"> <%=figure.name%></a></li>
+  <%end%>
+</ul>
